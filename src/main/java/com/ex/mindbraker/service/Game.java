@@ -62,6 +62,10 @@ public class Game {
 		}
 		return true;
 	}
+	
+	public boolean canRotate(Circle current, Circle... neighbours) {
+		return false;
+	}
 
 	private void executeRotate(Circle mainCircle, Circle... neighbours) {
 

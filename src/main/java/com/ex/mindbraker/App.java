@@ -27,6 +27,10 @@ public class App {
 		if (Util.checkCircleConsistency(circleA, circleB, circleC))
 			Printer.printAllCircles(circleA, circleB, circleC);
 
+		
+		
+		
+		
 		System.out.println(game.rotateClockwise(circleB, circleA, circleC));
 		System.out.println("--------------------");
 		System.out.println(game.rotateClockwise(circleA, circleC, circleB));

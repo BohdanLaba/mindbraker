@@ -8,6 +8,11 @@ public class Triangle {
 	private String name;
 	private TriangleType triangleType;
 
+	public Triangle(Triangle triangle) {
+		this.name = triangle.getName();
+		this.triangleType = triangle.getTriangleType();
+	}
+
 	public Triangle(String name, TriangleType triangleType) {
 		super();
 		this.name = name;
